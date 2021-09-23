@@ -156,9 +156,10 @@ ggplot(data, aes(x=Built_Year, y=Operating_Rating)) + geom_point(color='orange')
   labs(x = "Built Year",y = "Operating Rating")
 ```
 
-![](HW_week2_files/figure-gfm/unnamed-chunk-4-1.png)<!-- --> From the
-above plot, we can see that it seems the later the bridge is built, the
-higher the operating rating is.
+![](HW_week2_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+**From the above plot, we can see that it seems the later the bridge is
+built, the higher the operating rating is.**
 
 **Also, I would like to check if there is any relationship between Deck
 condition rating and operating rating**
@@ -169,10 +170,11 @@ ggplot(data, aes( x=Deck_Cond, y=Operating_Rating)) + geom_boxplot(color='purple
   labs(x = "Deck Condition Rating",y = "Operating Rating")
 ```
 
-![](HW_week2_files/figure-gfm/unnamed-chunk-5-1.png)<!-- --> From this
-plot, we can see that the bridges with deck condition rating larger than
-6 got better median operating ratings than the bridges with deck
-condition rating below or equal to 5.
+![](HW_week2_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+**From this plot, we can see that the bridges with deck condition rating
+larger than 6 got better median operating ratings than the bridges with
+deck condition rating below or equal to 5.**
 
 **Try to build a basic model to predict the operating rating by using
 condition ratings**
