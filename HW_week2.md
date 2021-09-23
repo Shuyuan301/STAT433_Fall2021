@@ -5,7 +5,7 @@ SHUYUAN JIA
 
 ## GitHub URL
 
-*<https://github.com/Shuyuan301/STAT433>*
+*<https://github.com/Shuyuan301/STAT433_Fall2021.git>*
 
 ## Download Bridge Dataset in WI
 
