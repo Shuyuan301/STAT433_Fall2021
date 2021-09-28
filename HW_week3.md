@@ -138,9 +138,11 @@ mutate(flights,cancel = (is.na(arr_delay) | is.na(dep_delay))) %>%
 
     ## `summarise()` has grouped output by 'year', 'month'. You can override using the `.groups` argument.
 
-![](HW_week3_files/figure-gfm/unnamed-chunk-5-1.png)<!-- --> **Through
-the plot above (flights\_num against canceled\_num), we can see that the
-number of flights canceled increases with the total number of flights.**
+![](HW_week3_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+**Through the plot above (flights\_num against canceled\_num), we can
+see that the number of flights canceled increases with the total number
+of flights.**
 
 **Next, try to figure out whether there is a relationship between the
 proportion of flights canceled and the average departure delay.**

@@ -68,6 +68,8 @@ mutate(flights,cancel = (is.na(arr_delay) | is.na(dep_delay))) %>%
     flights_num = n()) %>% 
   ggplot(aes(x = flights_num, y = canceled_num)) + geom_point()
 ```
+
+
 **Through the plot above (flights_num against canceled_num), we can see that the number of flights canceled increases with the total number of flights.**
 
 **Next, try to figure out whether there is a relationship between the proportion of flights canceled and the average departure delay.**
